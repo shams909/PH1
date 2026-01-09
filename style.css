@@ -82,11 +82,16 @@ nav {
 
 
 .hero-content {
-    position: relative;
-    z-index: 1;
     color: white;
     max-width: 700px;
     padding: 50px;
+}
+
+.hero-content .badge {
+
+    text-align: center;
+    background: #000;
+    color: green;
 }
 
 .hero h1 {
