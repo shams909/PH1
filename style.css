@@ -299,11 +299,12 @@ nav {
     color: white;
     border: none;
     padding: 14px 28px;
-    border-radius: 8px;
+    border-radius: 50px;
     font-size: 16px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
+
 }
 
 .cta-button:hover {
@@ -315,5 +316,76 @@ nav {
     display: block;
     margin-top: 15px;
     color: #22c55e;
+    font-size: 14px;
+}
+
+
+.footer {
+    background-color: #2d2d2d;
+    padding: 40px 20px 20px;
+    color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.footer-content {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer-logo img {
+    height: 40px;
+}
+
+
+.footer-social h4 {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a {
+    width: 32px;
+    height: 32px;
+    border: 1px solid #444;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons a:hover {
+    background: #5e4d4d;
+}
+
+.footer hr {
+
+    border-top: 1px solid whitesmoke;
+
+}
+
+.copyright {
+    text-align: center;
+    color: #e7e7e7;
     font-size: 14px;
 }
